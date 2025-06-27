@@ -1,0 +1,851 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-principal {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 95%;
+    display: flex;
+    align-content: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+.navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 4rem;
+    width: 70%;
+    font-size: 30px;
+}
+
+.nave {
+    color: black;
+    font-size: 75%;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.link-navegador {
+    background-color: #e74c57;
+    font-size: 75%;
+    padding: 1% 1%;
+    border-radius: 1rem;
+    font-weight: 700;
+    display: block;
+    font-style: bold;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.titulo-formulario {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.formulario {
+    width: 50%;
+}
+
+.contenedor-formulario {
+    width: 100%;
+    display: flex;
+}
+
+.contenido-formulario {
+    margin: 10%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    gap: 1rem;
+    background-color: #e8505b;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.titulo-formulario {
+    padding-bottom: 15%;
+    font-size: 30px;
+}
+
+.formulario_input {
+    font-size: 10%;
+}
+
+.pepe {
+    font-size: 20px;
+}
+
+.pepe3 {
+    font-size: 30px;
+    background-color: #455a64;
+    border: 1rem;
+    border-radius: 1vh;
+}
+
+.imagen-repartidor {
+    margin: 3%;
+    text-align: center;
+    width: 62%;
+}
+
+.img-ola {
+    margin-bottom: -15px;
+}
+
+.img-paso {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e8505b;
+}
+
+.pasos__imagen {
+    width: 30%;
+}
+
+.texto-pasos {
+    display: flex;
+    justify-content: center;
+    background-color: #e8505b;
+    color: aliceblue;
+    font-size: 250%;
+}
+
+.texto-pasos2 {
+    display: flex;
+    justify-content: center;
+    background-color: #e8505b;
+    color: aliceblue;
+    font-size: 100%;
+}
+
+.testimoniales {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 350%;
+}
+
+.testimonios {
+    display: flex;
+    margin: 5%;
+    font-size: 120%;
+}
+
+.testimonio2 {
+    width: 30%;
+    padding: 3%;
+    margin: 1%;
+    gap: 1rem;
+    background-color: #455a64;
+    border-radius: 1rem;
+}
+
+.testimonio-user {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.testimonio-img-user {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 20%;
+}
+
+.testimonio-name-user {
+    width: 80%;
+}
+
+.img-testimonio1 {
+    width: 90%;
+    border-radius: 5rem;
+    margin: 2%;
+}
+
+.estrellas {
+    width: 75%;
+}
+
+.Ensaladas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5%;
+
+}
+
+.ensaladas-container {
+    display: flex;
+    padding: 5%;
+    margin: 5%;
+    background-color: #ffffff;
+    border-radius: 2vh;
+
+}
+
+.container-salada {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.404);
+
+}
+
+.titulo-ensalada {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    color: #455a64;
+    font-size: 250%;
+}
+
+.ensaladas-img {
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+}
+
+.ensaladas-detail {
+    width: 70%;
+}
+
+.img-ensalada {
+    width: 90%;
+}
+
+.subt-ensalada {
+    font-size: 150%;
+    color: #e8505b;
+}
+
+.tex-ensaladas {
+    font-size: 95%;
+}
+
+.appcomida {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.img-repartidor {
+    width: 45%;
+}
+
+.tex-appcomida2 {
+    padding: 5%;
+}
+
+.tex-appcomida {
+    font-size: 125%;
+    color: #455a64;
+}
+
+.titulo-appcomida {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    color: #455a64;
+    font-size: 120%;
+}
+
+.more-information {
+    background-color: #e8505b;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.app {
+    display: flex;
+    width: 100%;
+    background-color: #455a6444;
+}
+
+.app-img {
+    width: 50%;
+}
+
+.img-app {
+    width: 46%;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.texto-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    font-size: 150%;
+    gap: 1rem;
+}
+
+.text-1 {
+    color: #455a64;
+}
+
+.text-2 {
+    color: #000000;
+}
+
+.footer {
+    background-color: #3f545c;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-col h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #f1f1f1;
+}
+
+.footer-copyright {
+    background-color: #e74c57;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.img-apple-android {
+    display: flex;
+    justify-content: center;
+}
+
+.img-android {
+    width: 70%;
+    margin: 5%;
+}
+
+.tex-descarga {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 10%;
+}
+
+/*RESPONSIVE para pantallas menores o iguales a 960px */
+@media screen and (max-width: 960px) {
+    .contenedor-principal {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img-logo {
+        margin-bottom: 20%;
+    }
+
+    .navegador {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 20px;
+    }
+
+    .contenedor-formulario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 80%;
+    }
+
+    .imagen-repartidor {
+        width: 80%;
+    }
+
+    .testimonios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonio2 {
+        width: 80%;
+    }
+
+    .appcomida {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-repartidor {
+        width: 80%;
+    }
+
+    .texto-app {
+        width: 90%;
+    }
+
+    .app {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-app {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .app-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto-app {
+        width: 100%;
+        padding: 4rem;
+        margin-left: 30%;
+    }
+
+    .Ensaladas {
+        grid-template-columns: 100%;
+    }
+}
+
+/*RESPONSIVE para pantallas menores o iguales a 580px*/
+@media screen and (max-width: 580px) {
+    
+    .contenedor-principal {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .logo {
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+
+    .img-logo {
+        width: 100%;
+    }
+
+    .navegador {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .contenedor-formulario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 50%;
+    }
+
+    .contenido-formulario {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 2rem;
+        font-size: 14px;
+    }
+
+    .titulo-formulario {
+        font-size: 22px;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .pepe,
+    .pepe2 {
+        font-size: 16px;
+    }
+
+    .pepe3 {
+        font-size: 18px;
+        padding: 0.5rem;
+    }
+
+    .imagen-repartidor {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .texto-pasos {
+        font-size: 22px;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .texto-pasos2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .img-paso {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .pasos__imagen {
+        width: 80%;
+    }
+
+    .testimonios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonio2 {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .Ensaladas {
+        grid-template-columns: 1fr;
+        padding: 2rem;
+    }
+
+    .ensaladas-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .ensaladas-img,
+    .ensaladas-detail {
+        width: 100%;
+    }
+
+    .img-ensalada {
+        width: 70%;
+    }
+
+    .titulo-ensalada {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .appcomida {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-repartidor {
+        width: 90%;
+    }
+
+    .tex-appcomida2 {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .tex-appcomida {
+        font-size: 16px;
+    }
+
+    .more-information {
+        width: 100%;
+    }
+
+    .app {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-app {
+        width: 60%;
+        margin: 1rem auto;
+    }
+
+    .texto-app {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .img-apple-android {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-android {
+        width: 60%;
+        margin: 1rem 0;
+    }
+
+    .footer-contenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .footer-copyright {
+        font-size: 16px;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .contenedor-principal {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .navegador {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0.5rem;
+        font-size: 14px;
+    }
+
+    .contenedor-formulario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario {
+        width: 70%;
+    }
+
+    .contenido-formulario {
+        padding: 1.5rem;
+        font-size: 13px;
+        gap: 0.8rem;
+    }
+
+    .titulo-formulario {
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+
+    .pepe,
+    .pepe2 {
+        font-size: 14px;
+    }
+
+    .pepe3 {
+        font-size: 16px;
+        padding: 0.5rem;
+    }
+
+    .imagen-repartidor {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .texto-pasos {
+        font-size: 20px;
+        padding: 1rem;
+    }
+
+    .texto-pasos2 {
+        font-size: 14px;
+        padding-bottom: 1rem;
+    }
+
+    .img-paso {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pasos__imagen {
+        width: 85%;
+    }
+
+    .testimonios {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .testimonio2 {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .Ensaladas {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .ensaladas-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .img-ensalada {
+        width: 70%;
+    }
+
+    .subt-ensalada {
+        font-size: 18px;
+    }
+
+    .tex-ensaladas {
+        font-size: 14px;
+    }
+
+    .appcomida {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-repartidor {
+        width: 90%;
+    }
+
+    .tex-appcomida2 {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .tex-appcomida {
+        font-size: 14px;
+    }
+
+    .more-information {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .app {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .app-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-app {
+        width: 65%;
+        margin: 1rem auto;
+    }
+
+    .texto-app {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .img-apple-android {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-android {
+        width: 50%;
+        margin: 0.5rem 0;
+    }
+
+    .footer-contenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .footer-col h3 {
+        font-size: 20px;
+    }
+
+    .footer-col p,
+    .footer-col ul li a {
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        font-size: 14px;
+        padding: 1rem;
+    }
+}

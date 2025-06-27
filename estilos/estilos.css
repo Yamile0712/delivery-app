@@ -5,8 +5,6 @@
 }
 
 .contenedor-principal {
-    padding-top: 5%;
-    padding-left: 5%;
     width: 95%;
     display: flex;
     align-content: center;
@@ -104,6 +102,10 @@
     width: 62%;
 }
 
+.olas{
+ width: 100%;
+}
+
 .img-ola {
     margin-bottom: -15px;
 }
@@ -199,7 +201,7 @@
 
 }
 
-.container-salada {
+.container-ensalada {
     width: 100%;
     background-color: rgba(128, 128, 128, 0.404);
 
@@ -397,10 +399,6 @@
         text-align: center;
     }
 
-    .img-logo {
-        margin-bottom: 20%;
-    }
-
     .navegador {
         flex-direction: column;
         gap: 1rem;
@@ -480,7 +478,6 @@
 
     .logo {
         width: 60%;
-        margin-bottom: 1rem;
     }
 
     .img-logo {
@@ -498,22 +495,20 @@
     .contenedor-formulario {
         flex-direction: column;
         align-items: center;
+        width: 80%;
     }
 
     .formulario {
-        width: 50%;
+        width: 100%;
     }
 
     .contenido-formulario {
         width: 100%;
-        margin: 2rem 0;
-        padding: 2rem;
         font-size: 14px;
     }
 
     .titulo-formulario {
         font-size: 22px;
-        padding-bottom: 1rem;
         text-align: center;
     }
 
@@ -524,17 +519,14 @@
 
     .pepe3 {
         font-size: 18px;
-        padding: 0.5rem;
     }
 
     .imagen-repartidor {
         width: 80%;
-        margin: 0 auto;
     }
 
     .texto-pasos {
         font-size: 22px;
-        padding: 1rem;
         text-align: center;
     }
 
@@ -560,19 +552,17 @@
 
     .testimonio2 {
         width: 90%;
-        margin-bottom: 2rem;
     }
+    
 
     .Ensaladas {
         grid-template-columns: 1fr;
-        padding: 2rem;
     }
 
     .ensaladas-container {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem;
     }
 
     .ensaladas-img,
@@ -599,7 +589,6 @@
     }
 
     .tex-appcomida2 {
-        padding: 1rem;
         text-align: center;
     }
 
@@ -623,7 +612,6 @@
 
     .img-app {
         width: 60%;
-        margin: 1rem auto;
     }
 
     .texto-app {
@@ -639,24 +627,22 @@
 
     .img-android {
         width: 60%;
-        margin: 1rem 0;
     }
 
     .footer-contenido {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem;
+    
     }
 
     .footer-col {
         width: 100%;
-        margin: 1rem 0;
     }
 
     .footer-copyright {
         font-size: 16px;
-        padding: 1rem;
+      
     }
 }
 @media screen and (max-width: 480px) {
@@ -664,12 +650,10 @@
     .contenedor-principal {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
     }
 
     .logo {
         width: 80%;
-        margin-bottom: 1rem;
     }
 
     .navegador {
@@ -690,14 +674,13 @@
     }
 
     .contenido-formulario {
-        padding: 1.5rem;
         font-size: 13px;
         gap: 0.8rem;
     }
 
     .titulo-formulario {
         font-size: 20px;
-        padding-bottom: 1rem;
+        
     }
 
     .pepe,
@@ -707,22 +690,18 @@
 
     .pepe3 {
         font-size: 16px;
-        padding: 0.5rem;
     }
 
     .imagen-repartidor {
         width: 90%;
-        margin: 1rem auto;
     }
 
     .texto-pasos {
         font-size: 20px;
-        padding: 1rem;
     }
 
     .texto-pasos2 {
         font-size: 14px;
-        padding-bottom: 1rem;
     }
 
     .img-paso {
@@ -737,7 +716,6 @@
     .testimonios {
         flex-direction: column;
         align-items: center;
-        margin: 1rem 0;
     }
 
     .testimonio2 {
@@ -747,13 +725,11 @@
 
     .Ensaladas {
         grid-template-columns: 1fr;
-        padding: 1rem;
     }
 
     .ensaladas-container {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
     }
 
     .img-ensalada {
@@ -778,7 +754,6 @@
     }
 
     .tex-appcomida2 {
-        padding: 1rem;
         text-align: center;
     }
 
@@ -803,14 +778,13 @@
 
     .img-app {
         width: 65%;
-        margin: 1rem auto;
     }
 
     .texto-app {
         width: 100%;
         font-size: 16px;
         text-align: center;
-        padding: 1rem;
+        
     }
 
     .img-apple-android {
@@ -820,19 +794,16 @@
 
     .img-android {
         width: 50%;
-        margin: 0.5rem 0;
     }
 
     .footer-contenido {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem 1rem;
     }
 
     .footer-col {
         width: 100%;
-        margin: 1rem 0;
     }
 
     .footer-col h3 {
@@ -846,6 +817,5 @@
 
     .footer-copyright {
         font-size: 14px;
-        padding: 1rem;
     }
 }
